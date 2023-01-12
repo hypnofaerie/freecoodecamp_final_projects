@@ -1,0 +1,61 @@
+html {
+    font-family: 'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Sans-Serif;
+    line-height: 1.5;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+body {
+    display: block;
+    margin: 0 8px 8px 8px;
+}
+
+#navbar {
+  width: 20%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  border-top: 2px solid grey;
+	border-bottom: 2px solid grey;
+  list-style: none;
+  margin-right: 0;
+}
+
+.navbar a {
+  display:block;
+  padding: 20px;
+  text-decoration: none;
+  color: black;
+  border-top: 1px solid  grey;
+	border-bottom: 1px solid  grey;
+
+
+}
+
+#main-doc {
+  margin-left: 19.8%;
+  border-left:  2px solid  grey;
+  padding-left: 20px;
+}
+
+@media (max-height: 450px) {
+   #navbar  {padding-top: 15px;}
+   #navbar a {font-size: 18px;}
+ }
+
+
+header  {
+  line-height: 3.5;
+  font-size: 30px;
+  font-weight: 800;
+  margin-left: 15px;
+}
+
+
+code {
+  background-color: rgb(158 158 158 / 62%);
+  padding: 20px 10px 20px 10px;
+  margin-left: 20px;
+  display: inline-block;
+  border-radius: 1px;
+}
